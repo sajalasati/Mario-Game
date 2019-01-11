@@ -31,20 +31,20 @@ For more information click [here](https://en.wikipedia.org/wiki/Mario_Bros).
 
 ### Description of Classes Created
 
-> **Board**:
-> The board class creates a 32X80 board for gameplay, with boundaries, walls, empty spaces, bricks and various other obstacles, moving objects and characters. It also comprises of render and init_board function.
-> **Bullets**:
-> The Bullets class provides Mario and Boss Enemy with bullets when they shoot.
-> **People**:
-> The People class has all the variables and basic functionality common for Mario and enemies.
-> **Player**:
-> The Player class inherits any People class, it provides movement functionality, and shooting options for the Mario Player and stores various things like its score and lives.
-> **Enemy**:
-> The Enemy class also inherits People. It provides the motion, deletion, generation and functionality of enemies.
-> **EnemyBoss**:
-> EnemyBoss class inherits People class, in addition to functionality of normal enemy it also has 'smart sense' so as to kill the Mario.
-> **Bridge**:
-> Creates a Bridge object which moves up and down.
+> - **Board**:
+>   The board class creates a 32X80 board for gameplay, with boundaries, walls, empty spaces, bricks and various other obstacles, moving objects and characters. It also comprises of render and init_board function.
+> - **Bullets**:
+>   The Bullets class provides Mario and Boss Enemy with bullets when they shoot.
+> - **People**:
+>   The People class has all the variables and basic functionality common for Mario and enemies.
+> - **Player**:
+>   The Player class inherits any People class, it provides movement functionality, and shooting options for the Mario Player and stores various things like its score and lives.
+> - **Enemy**:
+>   The Enemy class also inherits People. It provides the motion, deletion, generation and functionality of enemies.
+> - **EnemyBoss**:
+>   EnemyBoss class inherits People class, in addition to functionality of normal enemy it also has 'smart sense' so as to kill the Mario.
+> - **Bridge**:
+>   Creates a Bridge object which moves up and down.
 
 ## Requirements
 
